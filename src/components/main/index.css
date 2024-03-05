@@ -1,0 +1,27 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.counter-btn {
+    background-color: darkcyan;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 20px;
+    color: #fff;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    font-style: italic;
+    padding-bottom: 10px;
+}

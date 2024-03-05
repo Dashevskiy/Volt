@@ -1,0 +1,63 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.btn-icon {
+    min-width: 15px;
+    min-height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    cursor: pointer;
+}
+
+.btn-icon:first-child {
+    margin-right: 3px;
+}
+
+.btn-icon:last-child {
+    margin-left: 3px;
+}
+
+.icon-edit {
+    background-image: url('../../assets/icon-edit.svg');
+}
+
+.icon-delete {
+    background-image: url('../../assets/icon-delete.svg');
+}
+
+.icon-success {
+    background-image: url('../../assets/icon-success.svg');
+}
+
+.done {
+    text-decoration: line-through; 
+}
+
+.txt[readOnly] {
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+}
+
+.txt {
+    border: none;
+    color: #2C2C2C;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon-container {
+    display: flex;
+}
